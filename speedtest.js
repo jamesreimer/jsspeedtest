@@ -2,7 +2,7 @@ function SpeedTest(testImplement, testParams, repetitions) {
   this.testImplement = testImplement;
   this.testParams = testParams;
   this.repetitions = repetitions || 10000;
-  this.avaerage = 0;
+  this.average = 0;
 }
 
 SpeedTest.prototype = {
