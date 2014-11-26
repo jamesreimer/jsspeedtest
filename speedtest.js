@@ -19,4 +19,4 @@ SpeedTest.prototype = {
                        this.repetitions + ": " +
                        this.average);
   }
-}
+};
