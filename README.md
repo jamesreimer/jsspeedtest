@@ -40,7 +40,7 @@ Now instantiate the `SpeedTest` class, passing in as parameters the function exp
 ```js
 var speedTest = new SpeedTest(addMembers, listsForTests);
 ```
-  -or-
+-or-
 ```js
 var speedTest = new SpeedTest(addMembers, listsForTests, 100000);
 ```
@@ -69,8 +69,8 @@ speedTest.startTest();
 ```
 
 The result would be logged to the console as such:
-```sh
-Average execution across 100000: .0043 ms
+```console
+> Average execution across 100000: .0043 ms
 ```
 
 ### License
