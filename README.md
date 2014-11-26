@@ -70,7 +70,7 @@ speedTest.startTest();
 
 The result would be logged to the console as such:
 ```console
-> Average execution across 100000: .0043 ms
+> Average execution across 100000: .0043ms
 ```
 
 ### License
