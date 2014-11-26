@@ -13,8 +13,8 @@ This class provides a more efficient alternative, as well as providing a more ac
 Say you wanted to measure the execution time of the code to add new members to a list of current members:
 
 ```js
-var membersNew = ["Cristen Banton", "Kirsten Thiede", "Cyril Punch", "Layne Perillo", "Faviola Leaver"];
-var membersCurrent = ["Regan Padillo", "Jay Shuford", "Ferne Amey", "Garrett Hem", "Delila Embrey"];
+var membersNew = ["Cristen Banton", "Kirsten Thiede", "Cyril Punch", "Layne Perillo", "Faviola Leaver"],
+    membersCurrent = ["Regan Padillo", "Jay Shuford", "Ferne Amey", "Garrett Hem", "Delila Embrey"];
 
 for (var i = 0; i < membersNew.length; i++) {
   membersCurrent.push(new Member(membersNew[i], 1));
@@ -54,9 +54,9 @@ speedTest.startTest();
 Your finished  code would look like this:
 
 ```js
-var membersNew = ["Cristen Banton", "Kirsten Thiede", "Cyril Punch", "Layne Perillo", "Faviola Leaver"];
-var membersCurrent = ["Regan Padillo", "Jay Shuford", "Ferne Amey", "Garrett Hem", "Delila Embrey"];
-var listsForTests = [membersNew, membersCurrent];
+var membersNew = ["Cristen Banton", "Kirsten Thiede", "Cyril Punch", "Layne Perillo", "Faviola Leaver"],
+    membersCurrent = ["Regan Padillo", "Jay Shuford", "Ferne Amey", "Garrett Hem", "Delila Embrey"],
+    listsForTests = [membersNew, membersCurrent];
 
 var addMembers = function(listOfParams) {
   for (var i = 0; i < listOfParams[0].length; i++) {
