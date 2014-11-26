@@ -40,7 +40,7 @@ Now instantiate the `SpeedTest` class, passing in as parameters the function exp
 ```js
 var speedTest = new SpeedTest(addMembers, listsForTests);
 ```
--or-
+  -or-
 ```js
 var speedTest = new SpeedTest(addMembers, listsForTests, 100000);
 ```
